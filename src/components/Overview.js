@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactApexChart from 'react-apexcharts';
-
+import Gauge from "../parts/Gauge";
 const Overview = () => {
   const monthlySalesOptions = {
     chart: { type: 'area', height: 320, toolbar: { show: false } },
@@ -252,6 +252,17 @@ const Overview = () => {
               <i className="fas fa-chart-bar" style={{ color: '#eab308' }}></i>
             </div>
           </div>
+        </div>
+        <div
+          style={{
+            gridColumn: "span 2", // Span 2 columns to make it wider
+            width: "100%", // Ensure it takes the full width of the grid column
+            display: "flex",
+            justifyContent: "center", // Center the gauge within the grid cell
+            alignItems: "center",
+          }}
+        >
+          <Gauge />
         </div>
       </div>
       
