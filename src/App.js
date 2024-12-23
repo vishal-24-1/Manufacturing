@@ -78,8 +78,8 @@ const App = () => {
           }}
         >
           <div style={{ padding: '1rem', display: 'flex', alignItems: 'center', borderBottom: '1px solid #1f2937' }}>
-            <img src="https://placehold.co/40x40?text=Logo" alt="Dashboard Logo" style={{ width: '2.5rem', height: '2.5rem', borderRadius: '9999px' }} />
-            <span style={{ marginLeft: '0.75rem', fontSize: '1.25rem', fontWeight: '600' }}>Salesmine</span>
+            <img src="./images.jpg" alt="Dashboard Logo" style={{ width: '2.5rem', height: '2.5rem', borderRadius: '9999px' }} />
+            <span style={{ marginLeft: '0.75rem', fontSize: '1.25rem', fontWeight: '600' }}>Peerless Biotech</span>
           </div>
           <div style={{ flex: 1, padding: '1.5rem 0' }}>
             {navLinks.map(link => (
@@ -105,8 +105,8 @@ const App = () => {
             <div style={{ display: 'flex', alignItems: 'center' }}>
               <img src="https://avatar.iran.liara.run/public" alt="Avatar" style={{ width: '2rem', height: '2rem', borderRadius: '9999px' }} />
               <div style={{ marginLeft: '0.75rem' }}>
-                <p style={{ fontSize: '0.875rem', fontWeight: '500' }}>Salesmine_Admin User</p>
-                <p style={{ fontSize: '0.75rem', color: '#9ca3af' }}>admin@salesmine.com</p>
+                <p style={{ fontSize: '0.875rem', fontWeight: '500' }}>Peerless_Admin User</p>
+                <p style={{ fontSize: '0.75rem', color: '#9ca3af' }}>admin@peerless.com</p>
               </div>
             </div>
           </div>
@@ -299,9 +299,9 @@ const App = () => {
                         fontSize: "1rem",
                       }}
                     >
-                      RK
+                      VR
                     </div>
-                    <span style={{ fontWeight: "500", color: "#374151" }}>Ram Kumar</span>
+                    <span style={{ fontWeight: "500", color: "#374151" }}>Vignesh R</span>
                     <i className="fas fa-chevron-down" style={{ color: "#9ca3af" }}></i>
                   </button>
 

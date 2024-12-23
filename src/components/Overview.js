@@ -15,8 +15,8 @@ const Overview = () => {
 
   const topProductsOptions = {
     chart: { type: 'bar', height: 320, toolbar: { show: false } },
-    series: [{ name: 'Revenue', data: [44, 55, 41, 67, 22] }],
-    xaxis: { categories: ['Mispa CX4', 'TBA-2000FR', 'Mispa i3', 'Mispa HX 88', 'Mispa Nano'] },
+    series: [{ name: 'Revenue', data: [44, 55, 41, 67, 22, 34] }],
+    xaxis: { categories: ['AutoLab Amaze', 'AutoLab Versa', 'EuroLab 200', 'AutoLab ESR 10', 'Mission U500','OnCall A1c'] },
     colors: ['#22c55e'],
     plotOptions: { bar: { borderRadius: 4, horizontal: true } }
   };
@@ -50,7 +50,7 @@ const Overview = () => {
         {
           heading: "Top Product Trends",
           description:
-            "Mispa CX4 leads sales with 28% revenue share; focus marketing efforts.",
+            "AutoLab ESR 10 leads sales with 28% revenue share; focus marketing efforts.",
         },
         {
           heading: "Demand Surge Prediction",
@@ -456,7 +456,7 @@ const Overview = () => {
                 <i className="fas fa-star" style={{ color: '#eab308', fontSize: '0.75rem' }}></i>
               </div>
               <div style={{ marginLeft: '1rem' }}>
-                <p style={{ fontSize: '0.875rem' }}>New product review for Mispa CX4</p>
+                <p style={{ fontSize: '0.875rem' }}>New product review for Electra Blood Mixer</p>
                 <p style={{ fontSize: '0.75rem', color: '#6b7280' }}>6 hours ago</p>
               </div>
             </div>

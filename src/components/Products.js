@@ -8,7 +8,7 @@ const Products = () => {
   const [activeTab, setActiveTab] = useState("clinical");
   const productData = {
     clinical: {
-      name: "Mispa CX4",
+      name: "EuroLab 200",
       category: "Clinical Chemistry",
       revenue: "₹12.4M",
       units: 234,
@@ -16,31 +16,31 @@ const Products = () => {
       trend: [25, 66, 41, 89, 63, 25, 44, 12, 36, 9, 54],
     },
     hematology: {
-      name: "MISPA HX 88",
-      category: "Hematology Analyzers",
+      name: "AutoLab HA 360",
+      category: "Hematology Analyzer",
       revenue: "₹9.8M",
       units: 185,
       growth: "+10.8%",
       trend: [20, 50, 38, 72, 56, 48, 67, 43, 29, 31, 45],
     },
     immunology: {
-      name: "MISPA 160",
-      category: "Immunology Analyzers",
+      name: "Getein 1100",
+      category: "immunology Analyzer",
       revenue: "₹11.2M",
       units: 210,
       growth: "+12.5%",
       trend: [15, 42, 35, 61, 53, 40, 56, 48, 34, 25, 38],
     },
-    molecular: {
-      name: "MISPA LUME",
-      category: "Molecular Diagnostics",
+    Lab_Auxiliaries: {
+      name: "Incubators",
+      category: "Lab_Auxiliaries",
       revenue: "₹10.5M",
       units: 200,
       growth: "+11.3%",
       trend: [18, 48, 30, 70, 52, 45, 60, 40, 33, 27, 42],
     },
     urine: {
-      name: "MISPA URISKAN 100 PLUS",
+      name: "Mission U500",
       category: "Urine Analyzers",
       revenue: "₹8.9M",
       units: 175,
@@ -92,7 +92,7 @@ const Products = () => {
         },
         {
           heading: "Revenue Contribution",
-          description: "Highlights that Mispa CX4 contributes 30% to overall revenue.",
+          description: "Highlights that EuroLab 200 contributes 30% to overall revenue.",
         },
         {
           heading: "Product Growth",
@@ -116,7 +116,7 @@ const Products = () => {
         },
         {
           heading: "Underperforming Product",
-          description: "Molecular Diagnostics needs marketing adjustments to meet expectations.",
+          description: "Urine Analyzers needs marketing adjustments to meet expectations.",
         },
       ],
       bgColor: "#eff6ff",
@@ -127,7 +127,7 @@ const Products = () => {
   const revenueDistOptions = {
     chart: { type: "donut", height: 320 },
     series: [44, 55, 13, 33,34],
-    labels: ["Clinical Chemistry", "Hematology", "Immunology", "Molecular Diagnostics", "Urine Analyzers"],
+    labels: ["Clinical Chemistry", "Hematology", "Immunology", "Lab_Auxiliaries", "Urine Analyzers"],
     colors: ["#0ea5e9", "#22c55e", "#a855f7", "#eab308" ,"#00008B"],
   };
 

@@ -18,7 +18,7 @@ const Forecast = () => {
         },
         {
           heading: "High Growth Segments",
-          description: "Products like 'Mispa CX4' and 'Mispa HX 88' are forecasted to grow by 18% and 15%, respectively.",
+          description: "Products like 'EuroLab 200' and 'Mission U500' are forecasted to grow by 18% and 15%, respectively.",
         },
         {
           heading: "Market Growth Opportunities",
@@ -54,15 +54,15 @@ const Forecast = () => {
       items: [
         {
           heading: "Top Performers",
-          description: "'Mispa CX4' and 'TBA-2000FR' are forecasted to generate the highest revenue, contributing 40% of total revenue.",
+          description: "'EuroLab 200' and 'AutoLab ESR 20' are forecasted to generate the highest revenue, contributing 40% of total revenue.",
         },
         {
           heading: "Emerging Product",
-          description: "'Mispa Nano' shows steady growth of 20% quarter-over-quarter, driven by competitive pricing strategies.",
+          description: "'AutoLab HA 360' shows steady growth of 20% quarter-over-quarter, driven by competitive pricing strategies.",
         },
         {
           heading: "Focus Areas",
-          description: "Increasing production capacity for high-growth products like 'Mispa HX 88' is recommended.",
+          description: "Increasing production capacity for high-growth products like 'Mission HemoPro' is recommended.",
         },
       ],
       bgColor: "#f0fdf4",
@@ -98,23 +98,23 @@ const Forecast = () => {
     },
     series: [
       {
-        name: 'Mispa CX4',
+        name: 'AutoLab Amaze', 
         data: [30, 45, 50, 55, 65, 70],
       },
       {
-        name: 'TBA-2000FR',
+        name: 'AutoLab Versa',
         data: [20, 25, 30, 40, 45, 55],
       },
       {
-        name: 'Mispa i3',
+        name: 'EuroLab 200',
         data: [15, 20, 25, 30, 35, 40],
       },
       {
-        name: 'Mispa HX 88',
+        name: 'AutoLab ESR 10',
         data: [40, 42, 44, 50, 52, 60],
       },
       {
-        name: 'Mispa Nano',
+        name: 'Mission U500',
         data: [10, 15, 20, 25, 30, 35],
       },
     ],

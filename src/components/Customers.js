@@ -2,35 +2,35 @@ import React from 'react';
 import ReactApexChart from 'react-apexcharts';
 const customerLoyaltyData = [
   {
-    product: "Mispa CX4",
+    product: "EuroLab 200",
     loyalCustomers: 824,
     repeatRate: "76%",
     frequency: "4.2 months",
     retentionRate: "89%",
   },
   {
-    product: "MISPA HX 88",
+    product: "AutoLab Amaze",
     loyalCustomers: 654,
     repeatRate: "72%",
     frequency: "4.8 months",
     retentionRate: "85%",
   },
   {
-    product: "MISPA 160",
+    product: "AutoLab Versa",
     loyalCustomers: 712,
     repeatRate: "74%",
     frequency: "4.6 months",
     retentionRate: "87%",
   },
   {
-    product: "MISPA LUME",
+    product: "AutoLab Versa",
     loyalCustomers: 580,
     repeatRate: "70%",
     frequency: "5.1 months",
     retentionRate: "82%",
   },
   {
-    product: "MISPA URISKAN 100 PLUS",
+    product: "AutoLab ESR 10",
     loyalCustomers: 610,
     repeatRate: "71%",
     frequency: "5.0 months",
@@ -74,7 +74,7 @@ const Customers = () => {
         },
         {
           heading: "Top Performing Product",
-          description: "Mispa CX4 boasts the highest retention rate of 89%.",
+          description: "EuroLab 200 boasts the highest retention rate of 89%.",
         },
         {
           heading: "Improving Repeat Purchase Frequency",
