@@ -12,14 +12,18 @@ const productRegionData = [
 
 const regionsData = [
   { name: "Tamil Nadu", revenue: 45.2 },
-  { name: "Karnataka", revenue: 38.7 },
-  { name: "Andhra Pradesh", revenue: 32.1 },
+  { name: "Karnataka", revenue: 42.7 },
+  { name: "Andhra Pradesh", revenue: 39.1 },
+  { name: "Madhya Pradesh", revenue: 37.5 },
+  { name: "Rajasthan", revenue: 35.3 },
+  { name: "Gujarat", revenue: 31.1 },
+  { name: "Kerala", revenue: 43.4 },
 ];
 
 const cityPerformanceOptions = {
   chart: { type: 'bar', height: 320, toolbar: { show: false } },
   series: [{ name: 'Revenue', data: [44, 55, 41, 67, 22, 43] }],
-  xaxis: { categories: ['Chennai', 'Bangalore', 'Hyderabad', 'Coimbatore', 'Madurai', 'Vizag'] },
+  xaxis: { categories: ['Chennai', 'Bangalore', 'Hyderabad', 'Coimbatore', 'Surat', 'Ahmedabad'] },
   colors: ['#0ea5e9']
 };
 
@@ -33,8 +37,13 @@ const customerDistOptions = {
 const geoChartData = [
   ['State', 'Revenue (in Millions)'],
   ['Tamil Nadu', 45.2],
-  ['Karnataka', 38.7],
-  ['Andhra Pradesh', 32.1],
+  ['Karnataka', 42.7],
+  ['Andhra Pradesh', 39.1],
+  ['Madhya Pradesh', 37.5],
+  ['Rajasthan', 35.3],
+  ['Gujarat', 31.1],
+  ['Assam', 27.4],
+  ['Kerala', 43.4],
 ];
 
 const geoChartOptions = {
@@ -88,7 +97,7 @@ const Regions = () => {
       iconClass: "fas fa-users",
     },
   ];
-  
+
 
   return (
     <section id="regions" style={{ padding: '1.5rem', display: 'block' }}>
@@ -100,6 +109,11 @@ const Regions = () => {
             <option>Tamil Nadu</option>
             <option>Andhra Pradesh</option>
             <option>Karnataka</option>
+            <option>Madhya Pradesh</option>
+            <option>Rajasthan</option>
+            <option>Assam</option>
+            <option>Gujarat</option>
+
           </select>
           <button style={{
             marginLeft: 'auto', padding: '0.5rem 1rem', backgroundColor: '#3b82f6', color: '#ffffff',
