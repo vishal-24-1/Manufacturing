@@ -15,29 +15,29 @@ const Overview = () => {
 
   const topProductsOptions = {
     chart: { type: 'bar', height: 320, toolbar: { show: false } },
-    series: [{ name: 'Revenue', data: [44, 55, 41, 67, 22, 34] }],
-    xaxis: { categories: ['AutoLab Amaze', 'AutoLab Versa', 'EuroLab 200', 'AutoLab ESR 10', 'Mission U500','OnCall A1c'] },
+    series: [{ name: 'Revenue', data: [451, 352, 285, 66, 46, 22] }],
+    xaxis: { categories: ['AutoLab Amaze', 'AutoLab Versa', 'Autolab accord', 'Spin XS', 'Eurolab 200','Eurolab 240'] },
     colors: ['#22c55e'],
     plotOptions: { bar: { borderRadius: 4, horizontal: true } }
   };
   const insights = [
     {
-      title: "AI Revenue Optimization",
+      title: "AI Revenue Optimization Insights",
       items: [
         {
-          heading: "Revenue Growth Opportunities",
+          heading: "Untapped Revenue Opportunity",
           description:
-            "Identify $2.5M untapped revenue in premium diagnostic devices across Tier 2 cities.",
+            "Identified ₹4.2M untapped revenue in IVD Reagents for Tier-2 cities like Coimbatore and Madurai, where diagnostic labs are increasing but current distribution channels are underutilized.",
         },
         {
-          heading: "Price Optimization",
+          heading: "Optimizing Vendor Costs",
           description:
-            "Discover dynamic pricing strategies to boost revenue by 12%.",
+            "Switching to an alternative raw material supplier for PCR Kits can reduce production costs by 8%, translating into a ₹1.5M profit boost annually. ",
         },
         {
-          heading: "Product Performance Insights",
+          heading: "Revenue Recovery",
           description:
-            "Pinpoint underperforming products to reallocate marketing budgets effectively.",
+            "₹2.8M in lost revenue due to unsold Rapid Test Kits in the North-East region caused by inaccurate demand forecasting.",
         },
       ],
       bgColor: "#f0fdf4",
@@ -45,21 +45,43 @@ const Overview = () => {
       iconClass: "fas fa-chart-line",
     },
     {
-      title: "AI Sales and Product Insights",
+      title: "AI Sales Insights",
       items: [
         {
-          heading: "Top Product Trends",
+          heading: "Customer Segmentation",
           description:
-            "AutoLab ESR 10 leads sales with 28% revenue share; focus marketing efforts.",
+            "35% of private diagnostic labs in Hyderabad and Chennai prefer bundled purchases of ELISA Kits and Sample Preparation Reagents, offering a cross-selling opportunity.",
         },
         {
-          heading: "Demand Surge Prediction",
+          heading: "Churn Prediction",
           description:
-            "15% increase in demand for portable devices expected in Q4.",
+            "25% of high-value clients (diagnostic chains) are at risk of switching to competitors due to delayed delivery of Immunology Kits. ",
         },
         {
-          heading: "Market Expansion Opportunities",
-          description: "Explore a 10% growth potential in emerging APAC regions.",
+          heading: "Demand Surge Alerts",
+          description: "Forecasted 20% sales increase in HbA1c Test Kits in Karnataka due to rising diabetes awareness campaigns.",
+        },
+      ],
+      bgColor: "#eff6ff",
+      iconColor: "#3b82f6",
+      iconClass: "fas fa-box",
+    },
+    {
+      title: "AI Product Insights",
+      items: [
+        {
+          heading: "Top Performing Products",
+          description:
+            "Sales of Rapid COVID-19 Test Kits in Tamil Nadu grew by 28% last quarter, signaling the need to increase stock for Q1",
+        },
+        {
+          heading: "Underperforming SKUs",
+          description:
+            "Microbiological Culture Media sales in Kerala decreased by 15% due to higher pricing than competitors.",
+        },
+        {
+          heading: "Market Expansion Opportunity",
+          description: "Launching Point-of-Care Devices in Bangalore has a 40% probability of capturing market share from competitors.",
         },
       ],
       bgColor: "#eff6ff",
@@ -449,8 +471,8 @@ const Overview = () => {
                 <i className="fas fa-shopping-cart" style={{ color: '#3b82f6', fontSize: '0.75rem' }}></i>
               </div>
               <div style={{ marginLeft: '1rem' }}>
-                <p style={{ fontSize: '0.875rem' }}>New order <span style={{ fontWeight: '600' }}>#12345</span> from Chennai</p>
-                <p style={{ fontSize: '0.75rem', color: '#6b7280' }}>2 hours ago</p>
+                <p style={{ fontSize: '0.875rem' }}>Partnered with XYZ Logistics to reduce delivery time by <span style={{ fontWeight: '600' }}>25%</span> for Tier-2 and Tier-3 cities.</p>
+                {/*<p style={{ fontSize: '0.75rem', color: '#6b7280' }}>2 hours ago</p>*/}
               </div>
             </div>
             <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -458,8 +480,8 @@ const Overview = () => {
                 <i className="fas fa-user-plus" style={{ color: '#22c55e', fontSize: '0.75rem' }}></i>
               </div>
               <div style={{ marginLeft: '1rem' }}>
-                <p style={{ fontSize: '0.875rem' }}>New customer registration from Bangalore</p>
-                <p style={{ fontSize: '0.75rem', color: '#6b7280' }}>4 hours ago</p>
+                <p style={{ fontSize: '0.875rem' }}>Secured a ₹3M annual contract with ABC Diagnostics for exclusive supply of ELISA Kits</p>
+                {/*<p style={{ fontSize: '0.75rem', color: '#6b7280' }}>4 hours ago</p>*/}
               </div>
             </div>
             <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -467,8 +489,8 @@ const Overview = () => {
                 <i className="fas fa-star" style={{ color: '#eab308', fontSize: '0.75rem' }}></i>
               </div>
               <div style={{ marginLeft: '1rem' }}>
-                <p style={{ fontSize: '0.875rem' }}>New product review for Electra Blood Mixer</p>
-                <p style={{ fontSize: '0.75rem', color: '#6b7280' }}>6 hours ago</p>
+                <p style={{ fontSize: '0.875rem' }}>ISO 13485 certification audit successfully completed for all diagnostic product lines this quarter. </p>
+                {/*<p style={{ fontSize: '0.75rem', color: '#6b7280' }}>6 hours ago</p>*/}
               </div>
             </div>
           </div>

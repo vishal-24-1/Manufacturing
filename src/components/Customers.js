@@ -23,7 +23,7 @@ const customerLoyaltyData = [
     retentionRate: "87%",
   },
   {
-    product: "AutoLab Versa",
+    product: "Eurolab 240",
     loyalCustomers: 580,
     repeatRate: "70%",
     frequency: "5.1 months",
