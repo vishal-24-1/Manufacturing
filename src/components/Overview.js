@@ -84,8 +84,8 @@ const Overview = () => {
           description: "Launching Point-of-Care Devices in Bangalore has a 40% probability of capturing market share from competitors.",
         },
       ],
-      bgColor: "#eff6ff",
-      iconColor: "#3b82f6",
+      bgColor: "#fff1e2 ",
+      iconColor: "#fea036 ",
       iconClass: "fas fa-box",
     },
   ];
