@@ -168,7 +168,12 @@ const App = () => {
                     color: link.href === activeHash ? '#000000' : '#4b5563',
                     textDecoration: 'none'
                   }}
-                  onClick={() => setMobileMenuOpen(false)}
+                  onClick={(e) =>{
+                    e.preventDefault(); // Prevent default link behavior
+                    setMobileMenuOpen(false); // Close the menu
+                    setActiveHash(link.href); // Update activeHash
+                    window.location.hash = link.href; // Manually update the hash
+                  }}
                 >
                   {link.label}
                 </a>
